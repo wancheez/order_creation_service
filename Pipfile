@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+pytest = "*"
+sqlalchemy = "*"
+aiohttp = "*"
+pytest-asyncio = "*"
+aio-pika = "*"
+tenacity = "*"
+pyyaml = "*"
+alembic = "*"
+psycopg2-binary = "*"
+prometheus-client = "*"
+
+[dev-packages]
+mypy = "*"
+isort = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
